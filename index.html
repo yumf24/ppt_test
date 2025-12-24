@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页版演示文稿</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">我的项目文档</div>
+        <div class="links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#intro">1. 项目简介</a></li>
+                <li><a href="#feature">2. 核心功能</a></li>
+                <li><a href="#demo">3. 交互演示</a></li>
+                <li><a href="#contact">4. 联系方式</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="intro">
+                <h1>项目简介</h1>
+                <p>这是一个使用 HTML 和 CSS 制作的网页版演示文稿，类似于 MkDocs 的效果。</p>
+                <div class="card">你可以把这里想象成 PPT 的第一页。</div>
+            </section>
+
+            <section id="feature">
+                <h1>核心功能</h1>
+                <ul>
+                    <li><strong>响应式布局：</strong> 适配手机和电脑。</li>
+                    <li><strong>平滑滚动：</strong> 点击左侧目录丝滑跳转。</li>
+                    <li><strong>GitHub 部署：</strong> 全球可访问。</li>
+                </ul>
+            </section>
+
+            <section id="demo">
+                <h1>交互演示</h1>
+                <p>点击下方按钮试试：</p>
+                <button id="btn">点我弹出欢迎语</button>
+            </section>
+
+            <section id="contact">
+                <h1>联系方式</h1>
+                <p>如果你有任何问题，欢迎通过 GitHub 联系我。</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
